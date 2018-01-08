@@ -37,6 +37,44 @@ if($message['type']=='text')
 						);
 				
 	}
+	if($pesan_datang=='Done5','DONE 5')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'template',
+  'altText' => 'YES / NO',
+  'template' => 
+  array (
+    'type' => 'confirm',
+    'text' => 'Terima Kasih & Selamat Datang kaka
+
+Selamat Bergabung Menjadi Bagian Dari Keluarga FIS
+
+Admin silahkan berikan penilaian',
+    'actions' => 
+    array (
+      0 => 
+      array (
+        'type' => 'message',
+        'label' => 'Yes',
+        'text' => 'yes',
+      ),
+      1 => 
+      array (
+        'type' => 'message',
+        'label' => 'No',
+        'text' => 'no',
+      ),
+    ),
+  ),
+)
+						);
+				
+	}
 	if($pesan_datang=='Admin')
 	{
 		
