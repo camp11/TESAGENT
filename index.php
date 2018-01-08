@@ -194,7 +194,7 @@ array (
       ),
       5 => 
       array (
-        'thumbnailImageUrl' => 'https://thumb.ibb.co/fcD8SG/20180108_111333.jpg',
+        'thumbnailImageUrl' => 'https://preview.ibb.co/npK41b/20180108_111333.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'HOME AS.',
         'text' => 'Admin -- Name : Juna Hermanza   Location : West Java',
