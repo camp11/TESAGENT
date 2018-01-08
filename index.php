@@ -81,7 +81,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'template',
-  'altText' => 'this is a carousel template',
+  'altText' => 'FIS MANAGEMENT',
   'template' => 
   array (
     'type' => 'carousel',
