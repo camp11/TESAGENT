@@ -72,7 +72,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='Mimin')
+	if($pesan_datang=='Admin')
 	{
 		
 		
