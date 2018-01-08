@@ -50,11 +50,7 @@ array (
   'template' => 
   array (
     'type' => 'confirm',
-    'text' => 'Terima Kasih & Selamat Datang kaka
-
-Selamat Bergabung Menjadi Bagian Dari Keluarga FIS
-
-Admin silahkan berikan penilaian',
+    'text' => 'Terima Kasih & Selamat Datang kaka..Selamat Bergabung Menjadi Bagian Dari Keluarga FIS (*Admin silahkan berikan penilaian)',
     'actions' => 
     array (
       0 => 
