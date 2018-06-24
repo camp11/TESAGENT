@@ -70,9 +70,54 @@ array (
 )
 							)
 						);
-				
-	}
-	if($pesan_datang=='Admin')
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Welcome' || $command == 'wc' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524552956/line/Bot/Example',
+  'altText' => 'WELCOME TO FIS FAMILY',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'area' => 
+      array (
+        'x' => 0,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+    1 => 
+    array (
+      'type' => 'message',
+      'text' => 'Admin',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+if($pesan_datang=='Admin')
 	{
 		
 		
