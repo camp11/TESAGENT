@@ -70,54 +70,9 @@ array (
 )
 							)
 						);
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'Welcome' || $command == 'wc' ) {
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524552956/line/Bot/Example',
-  'altText' => 'WELCOME TO FIS FAMILY',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
-      'area' => 
-      array (
-        'x' => 0,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-    1 => 
-    array (
-      'type' => 'message',
-      'text' => 'Admin',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-if($pesan_datang=='Admin')
+		//pesan bergambar
+if($message['type']=='text')
+	if ($command == 'admin' || $command == 'Admin' )
 	{
 		
 		
@@ -246,9 +201,9 @@ array (
       ),
       4 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/n0w7an/20180211_194026.jpg',
+        'thumbnailImageUrl' => 'https://preview.ibb.co/gRYKZw/20180108_111446.jpg',
         'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'RESOURCE',
+        'title' => 'HOME AS.',
         'text' => 'Admin -- Name : Alfariz              Location : Jakarta',
         'actions' => 
         array (
@@ -337,7 +292,53 @@ array (
 						);
 				
 	}
-
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Welcome' || $command == 'wc' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524552956/line/Bot/Example',
+  'altText' => 'WELCOME TO FIS FAMILY',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'area' => 
+      array (
+        'x' => 0,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+    1 => 
+    array (
+      'type' => 'message',
+      'text' => 'Admin',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
 }
  
 $result =  json_encode($balas);
