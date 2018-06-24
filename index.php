@@ -70,7 +70,7 @@ array (
 )
 							)
 						);
-		//pesan bergambar
+//pesan bergambar
 if($message['type']=='text')
 	if ($command == 'admin' || $command == 'Admin' )
 	{
