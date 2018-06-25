@@ -285,6 +285,41 @@ if($message['type']=='text') {
     }
 }
 //pesan bergambar
+if($message['type']=='text') {
+	    if ($command == '6' || $command == '6' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'Persetujuan Peraturan FIS',
+  'template' => 
+  array (
+    'type' => 'confirm',
+    'text' => 'Apakah Kamu Menyetujui ini ? (*klik pilihan kamu)',
+    'actions' => 
+    array (
+      0 => 
+      array (
+        'type' => 'message',
+        'label' => 'Yes',
+        'text' => 'SETUJU',
+      ),
+      1 => 
+      array (
+        'type' => 'message',
+        'label' => 'No',
+        'text' => 'TIDAK SETUJU',
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
 if($message['type']=='text')
 	if ($command == 'admin' || $command == 'Admin' )
 	{
