@@ -585,8 +585,6 @@ if($message['type']=='text') {
         );
     }
 }
-}
-
 if (isset($balas)) {
     $result = json_encode($balas);
 //$result = ob_get_clean();
