@@ -303,13 +303,13 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'message',
-        'label' => 'Yes',
+        'label' => 'SETUJU',
         'text' => 'SETUJU',
       ),
       1 => 
       array (
         'type' => 'message',
-        'label' => 'No',
+        'label' => 'TIDAK SETUJU',
         'text' => 'TIDAK SETUJU',
       ),
     ),
