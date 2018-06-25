@@ -543,7 +543,7 @@ array (
 	}
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Welcome' || $command == 'wc' ) {
+	    if ($command == 'Selamat' || $command == 'congrat' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
