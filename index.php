@@ -309,7 +309,7 @@ if($message['type']=='text') {
       1 => 
       array (
         'type' => 'message',
-        'label' => 'TIDAK SETUJU',
+        'label' => 'TIDAK',
         'text' => 'TIDAK SETUJU',
       ),
     ),
