@@ -131,14 +131,14 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Malam' || $command == 'Night' ) {
+	    if ($command == 'Yes' || $command == 'yes' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => 'Malam juga, '.$profil->displayName
+                    'text' => 'Terimakasih banyak kk, '.$profil->displayName
                 )
             )
         );
