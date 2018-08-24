@@ -450,34 +450,6 @@ array (
       ),
       4 => 
       array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/gRYKZw/20180108_111446.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'HOME AS.',
-        'text' => 'Admin -- Name : Alfariz              Location : Jakarta',
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_ALFARIZ',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_Alfariz',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_Alfariz',
-          ),
-        ),
-      ),
-      5 => 
-      array (
         'thumbnailImageUrl' => 'https://preview.ibb.co/npK41b/20180108_111333.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'HOME AS.',
@@ -504,7 +476,7 @@ array (
           ),
         ),
       ),
-      6 => 
+      5 => 
       array (
         'thumbnailImageUrl' => 'https://preview.ibb.co/edtxMb/20180108_111247.jpg',
         'imageBackgroundColor' => '#FFFFFF',
