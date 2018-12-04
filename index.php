@@ -39,10 +39,10 @@ if ($type == 'join' || $command == 'Wc') {
     $text .= " \n";
     $text .= "       ⤵Selamat Datang di⤵\n";
     $text .= "=======================\n";	
-    $text .= "      >ⓜⓐⓘⓝ ⓡⓞⓞⓜ<\n";	
-    $text .= "BIRTHDAY EVENT ANNE - 27th\n";
+    $text .= " ROOM REGISTRASI NEW MEMBER\n";	
+    $text .= "Family Indonesian Smule [ FIS ]\n";
     $text .= "=======================\n";	
-    $text .= "  Jangan Lupa Cek Note ya\n";
+    $text .= "Ikuti dan Jawab Setiap Perintah BOT ya\n";
     $text .= "[Salken dari Saya]->$profil->displayName\n";
     $balas = array(
         'replyToken' => $replyToken,
